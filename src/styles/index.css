@@ -10,3 +10,84 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+html, body {
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, narrow;
+}
+
+.parentContainer {
+    background-color: #f7f7f7;
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+    align-items: column;    
+    font-size: 80px;
+    color: darkgray;
+    margin-top: 40px;
+    display: flex;
+    height: 800px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+h1{
+   
+    font-size: 80px;
+    text-align: center;
+    
+}
+.input {
+    width: 100%;
+    height: 70px;
+    border: none;
+    color: grey;
+    font-size: 30px;
+    padding: 10px;
+    border-bottom: solid 2px lightgrey;
+}
+
+.input::placeholder {
+    /* Your CSS styling for the placeholder */
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+
+
+.TodoList-Container {
+    box-shadow: 2px 2px 50px 1px rgba(77, 77, 77, 0.2);
+    border: solid 2px lightgrey;
+    width: 600px;
+    height: 600px;
+    font-size: 30px;
+    color: grey;
+    background-color: white;
+    margin-bottom: 600px;
+    
+ 
+}
+
+.tasksTable {
+    text-align: start;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 598px;
+   
+
+}
+
+.tasksTable tbody tr {
+    border-bottom: solid 2px lightgrey;
+    height: 70px;
+ 
+    vertical-align: middle;
+
+    
+  }
+
+  
