@@ -1,4 +1,4 @@
-export const TaskTable = ({ taskItems }) => {
+export const TaskTable = ({ taskItems, toggleTask }) => {
   return (
     <table className="tasksTable">
       <thead>
@@ -8,8 +8,12 @@ export const TaskTable = ({ taskItems }) => {
       </thead>
       <tbody>
         {taskItems.map((task) => (
-          <tr key={task.name}>
+          <tr key={task.name} >
+            
             <td>{task.name}</td>
+            <input type="checkbox"
+            checked = {task.done}
+            onChange={() => toggleTask(task)}></input>
           </tr>
         ))}
       </tbody>

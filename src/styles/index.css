@@ -38,6 +38,7 @@ h1{
    
     font-size: 80px;
     text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     
 }
 .input {
@@ -45,14 +46,14 @@ h1{
     height: 70px;
     border: none;
     color: grey;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
     border-bottom: solid 2px lightgrey;
 }
 
 .input::placeholder {
-    /* Your CSS styling for the placeholder */
-    color: lightgray;
+    
+   
     font-family: Arial, Helvetica, sans-serif;
     
   }
@@ -81,13 +82,29 @@ h1{
 
 }
 
-.tasksTable tbody tr {
+.tasksTable tbody tr td {
     border-bottom: solid 2px lightgrey;
     height: 70px;
- 
+    padding-left: 10px;
     vertical-align: middle;
 
     
   }
 
-  
+  .toDeleteTask {
+   height: 3px;
+   width: 3px;
+   padding-right: 50px;
+  }
+
+  .toMarkDoneTask{
+    height: 20px;
+   width: 20px;
+   padding: 0%;
+  }
+
+  .taskCount {
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px;
+  }
