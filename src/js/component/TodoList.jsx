@@ -75,23 +75,11 @@ const TodoList = () => {
 export default TodoList;
 
 
-
 /*
-<table className="tasksTable">
-<thead>
-  <tr>
-    <th></th>
-  </tr>
-</thead>
-<tbody>
-  {taskItems.map((task) => (
-    <tr key={task.name}>
-      <td>{task.name}</td>
-      <input type="checkbox"
-      checked = {task.done}
-      onChange={() => }></input>
-    </tr>
-  ))}
-</tbody>
-</table>
+
+I'm doing the same project but in a much more simpler way in this other repository, here is the url:
+
+https://github.com/4GeeksAcademy/EU-11-asunPF-todolistReact-useState-ul
+
+
 */
